@@ -65,7 +65,7 @@ nav {
 
 .basket-list {
   position: fixed;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 
@@ -74,6 +74,7 @@ nav {
   max-width: 95%;
 
   box-shadow: 10px 5px 5px rgb(139, 106, 78);
+  animation: show 500ms ease-in-out;
 }
 
 .basket-close {
@@ -85,4 +86,24 @@ nav {
 }
 .basket-delete {
   cursor: pointer;
+}
+
+@keyframes show {
+  from {
+    top: 70%;
+    opacity: 0;
+  }
+  to {
+    top: 40%;
+    opacity: 1;
+  }
+}
+
+.collection-item .quantBtns {
+  /* border-radius: 40%;
+  margin: 0 0.3rem; */
+
+  cursor: pointer;
+  vertical-align: middle;
+  color: #26a69a;
 }
