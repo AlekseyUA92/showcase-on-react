@@ -7,10 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 nav {
   padding: 0 1rem;
@@ -23,7 +23,7 @@ nav {
 
 .goods {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 1rem; 
 }
 
@@ -106,4 +106,20 @@ nav {
   cursor: pointer;
   vertical-align: middle;
   color: #26a69a;
+}
+
+#toast-container {
+  top: 3rem !important;
+  animation: fade-in 250ms ease-in-out;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0rem);
+  }
 }

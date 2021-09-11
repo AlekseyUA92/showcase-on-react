@@ -1,26 +1,24 @@
 function GoodsItem(props) {
-  const { mainId, displayName, displayDescription, price, displayAssets, addInOrder = Function.prototype} =
+  const { mainId, displayName, displayDescription, price: { regularPrice }, displayAssets: { 0: { full_background } }, addInOrder = Function.prototype } =
     props
-  const fullBackground = displayAssets[0].full_background
-  const {regularPrice} = price 
 
   return (
     <div className="card" id={mainId}>
       <div className="card-image">
-        <img src={fullBackground} />
+        <img src={full_background} />
       </div>
       <div className="card-content">
-      <span className="card-title">{displayName}</span>
+        <span className="card-title">{displayName}</span>
         <p>{displayDescription}</p>
       </div>
       <div className="card-action price-block">
-        <button 
+        <button
           onClick={() => addInOrder({
             mainId,
             displayName,
             regularPrice
           })} className="btn">Купить</button>
-        <span className="right" style={{fontSize: '1.5rem'}}>{Math.floor(regularPrice*0.36)} UAH</span>
+        <span className="right" style={{ fontSize: '1.5rem' }}>{Math.floor(regularPrice * 0.36)} UAH</span>
       </div>
     </div>
   )

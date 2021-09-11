@@ -11,7 +11,7 @@ function BasketItem(props) {
 
     return (
         <li href="#!" class="collection-item">
-            {displayName} 
+            {displayName}
             {/* <span 
             className='btn-small quantBtns'
             onClick={() => (decQuantity(mainId))}>-</span> */}
@@ -25,7 +25,7 @@ function BasketItem(props) {
             = {regularPrice * quantity}
             <span class="secondary-content"
                 onClick={() => removeFromBasket(mainId)}>
-                <i class="material-icons basket-delete" >
+                <i className="material-icons basket-delete" >
                     clear
                 </i>
             </span>
@@ -33,4 +33,4 @@ function BasketItem(props) {
     )
 }
 
-export {BasketItem}
+export { BasketItem }

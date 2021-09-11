@@ -1,8 +1,8 @@
-import {BasketItem} from './BasketItem';
+import { BasketItem } from './BasketItem';
 
 function BasketList(props) {
     const {
-        order, 
+        order,
         handleBasketShow = Function.prototype,
         removeFromBasket = Function.prototype,
         incQuantity = Function.prototype,
@@ -13,22 +13,27 @@ function BasketList(props) {
         return sum + el.regularPrice * el.quantity
     }, 0)
 
-    return ( <ul className="collection basket-list">
+    return (<ul className="collection basket-list">
         <li href="#!" className="collection-item active">Корзина</li>
         {
             order.length ? order.map(item => (
-                <BasketItem 
+                <BasketItem
                     key={item.mainId} {...item} removeFromBasket={removeFromBasket}
                     incQuantity={incQuantity}
                     decQuantity={decQuantity}
-                    />
+                />
             )) : <li href="#!" className="collection-item">Корзина пуста</li>
         }
-        <li href="#!" className="collection-item active">Общая стоимость: {totalPrice} UAH</li>
+        <li href="#!" className="collection-item active">
+            Общая стоимость: {totalPrice} UAH
+        </li>
+        <li href="#!" className="collection-item">
+            <button className='btn btn-small'>Купить</button>
+        </li>
         <i className='material-icons basket-close' onClick={handleBasketShow}>
             close
         </i>
     </ul>)
 }
 
-export {BasketList}
+export { BasketList }
