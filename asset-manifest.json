@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/showcase-on-react/static/css/main.d4bcf94a.chunk.css",
+    "main.js": "/showcase-on-react/static/js/main.ad0dede0.chunk.js",
+    "main.js.map": "/showcase-on-react/static/js/main.ad0dede0.chunk.js.map",
+    "runtime-main.js": "/showcase-on-react/static/js/runtime-main.d7802f9b.js",
+    "runtime-main.js.map": "/showcase-on-react/static/js/runtime-main.d7802f9b.js.map",
+    "static/js/2.45b0b2a5.chunk.js": "/showcase-on-react/static/js/2.45b0b2a5.chunk.js",
+    "static/js/2.45b0b2a5.chunk.js.map": "/showcase-on-react/static/js/2.45b0b2a5.chunk.js.map",
+    "index.html": "/showcase-on-react/index.html",
+    "static/css/main.d4bcf94a.chunk.css.map": "/showcase-on-react/static/css/main.d4bcf94a.chunk.css.map",
+    "static/js/2.45b0b2a5.chunk.js.LICENSE.txt": "/showcase-on-react/static/js/2.45b0b2a5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7802f9b.js",
+    "static/js/2.45b0b2a5.chunk.js",
+    "static/css/main.d4bcf94a.chunk.css",
+    "static/js/main.ad0dede0.chunk.js"
+  ]
+}
