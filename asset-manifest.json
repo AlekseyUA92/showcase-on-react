@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/showcase-on-react/static/css/main.d4bcf94a.chunk.css",
-    "main.js": "/showcase-on-react/static/js/main.67d8d17b.chunk.js",
-    "main.js.map": "/showcase-on-react/static/js/main.67d8d17b.chunk.js.map",
+    "main.js": "/showcase-on-react/static/js/main.23bc6f0f.chunk.js",
+    "main.js.map": "/showcase-on-react/static/js/main.23bc6f0f.chunk.js.map",
     "runtime-main.js": "/showcase-on-react/static/js/runtime-main.d7802f9b.js",
     "runtime-main.js.map": "/showcase-on-react/static/js/runtime-main.d7802f9b.js.map",
-    "static/js/2.45b0b2a5.chunk.js": "/showcase-on-react/static/js/2.45b0b2a5.chunk.js",
-    "static/js/2.45b0b2a5.chunk.js.map": "/showcase-on-react/static/js/2.45b0b2a5.chunk.js.map",
+    "static/js/2.ddcd9ebd.chunk.js": "/showcase-on-react/static/js/2.ddcd9ebd.chunk.js",
+    "static/js/2.ddcd9ebd.chunk.js.map": "/showcase-on-react/static/js/2.ddcd9ebd.chunk.js.map",
     "index.html": "/showcase-on-react/index.html",
     "static/css/main.d4bcf94a.chunk.css.map": "/showcase-on-react/static/css/main.d4bcf94a.chunk.css.map",
-    "static/js/2.45b0b2a5.chunk.js.LICENSE.txt": "/showcase-on-react/static/js/2.45b0b2a5.chunk.js.LICENSE.txt"
+    "static/js/2.ddcd9ebd.chunk.js.LICENSE.txt": "/showcase-on-react/static/js/2.ddcd9ebd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d7802f9b.js",
-    "static/js/2.45b0b2a5.chunk.js",
+    "static/js/2.ddcd9ebd.chunk.js",
     "static/css/main.d4bcf94a.chunk.css",
-    "static/js/main.67d8d17b.chunk.js"
+    "static/js/main.23bc6f0f.chunk.js"
   ]
 }
