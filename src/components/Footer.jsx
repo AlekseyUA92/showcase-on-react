@@ -7,7 +7,7 @@ function Footer() {
           <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
           <a
             className="grey-text text-lighten-4 right"
-            href="https://alekseyua92.github.io/showcase-on-react/"
+            href="https://github.com/AlekseyUA92/showcase-on-react"
             target='_blank'
             rel="noreferrer" >
             Repository

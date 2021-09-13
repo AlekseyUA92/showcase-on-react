@@ -7,7 +7,7 @@ function Header() {
         </a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
-            <a href="https://alekseyua92.github.io/showcase-on-react/" target='_blank' rel="noreferrer" >Repository</a>
+            <a href="https://github.com/AlekseyUA92/showcase-on-react" target='_blank' rel="noreferrer" >Repository</a>
           </li>
         </ul>
       </div>
